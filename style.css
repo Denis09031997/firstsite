@@ -1,0 +1,181 @@
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.cart {
+    padding-right: 50px;
+}
+
+.top-menu {
+    background-color: #4CCFC1;
+}
+
+.top-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 40px;
+    margin-bottom: 0;
+}
+
+li a {
+    padding-right:  10px;
+    padding-left: 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 2px solid white;
+}
+
+li a:hover {
+    display: block;
+    background-color: #FFA25E;
+    border: none;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.bordernone {
+    border: none;
+}
+
+.banner {
+    background-color: #3BC6B7;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.text-banner {
+    color: #FFFFFF;
+    max-width: 402px;
+    padding-left: 100px;
+}
+
+.text-banner h1 {
+    font-size: 61px;
+    text-transform: uppercase;
+}
+
+.custom-btn {
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background-color: #3CC395;
+    position: relative;
+    display: inline-block;
+    outline: none;
+  }
+
+  .categories {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items:stretch;
+  }
+
+ .boots {
+      padding-right: 150px;
+  }
+
+  .t-shirt {
+      padding-left: 150px;
+  }
+
+  .pants {
+      padding-left: 250px;
+  }
+
+  .clothes {
+      max-width: 200px;
+      max-height: 150px;
+      display: flex;
+  }
+
+  .description {
+      padding-left: 30px;
+  }
+
+h4 {
+    color: #AFAFAF;
+}
+
+h2 {
+    background-color: #38C1B4;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 180px;
+}
+
+.womanportmone h4 {
+    text-transform: uppercase;
+}
+
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.products {
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 257px;
+    height: 263px;
+    margin-left: 50px;
+    vertical-align: middle;
+    align-items: center;
+    border: 1px solid #E4E4E4;
+    border-bottom: 5px solid #3CC395;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3CC3B5;
+    color: white;
+
+}
+
+ul li {
+    line-height: 25px;
+}
+
+.copyright {
+    background-color: #2DA89B;
+    height: 50px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25px;
+}
